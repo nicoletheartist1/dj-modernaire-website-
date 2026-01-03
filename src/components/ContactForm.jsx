@@ -133,7 +133,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/60">Email</p>
-                    <p className="text-white font-medium">info@djmodernaire.com</p>
+                    <a href="mailto:djmodernaire@gmail.com" className="text-white font-medium hover:text-[#BF00FF] transition-colors">djmodernaire@gmail.com</a>
                   </div>
                 </div>
               </div>
