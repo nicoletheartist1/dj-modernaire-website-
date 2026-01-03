@@ -1,13 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, Facebook, Twitter, Youtube } from 'lucide-react';
+import { Music2 } from 'lucide-react';
 import { siteConfig } from '../data/mock';
 
 const socialLinks = [
-  { name: 'Instagram', icon: Instagram, href: '#' },
-  { name: 'Facebook', icon: Facebook, href: '#' },
-  { name: 'Twitter', icon: Twitter, href: '#' },
-  { name: 'YouTube', icon: Youtube, href: '#' },
+  { name: 'SoundCloud', icon: Music2, href: 'https://soundcloud.com/denard-jones' },
 ];
 
 const Footer = () => {
@@ -37,6 +34,8 @@ const Footer = () => {
                 <motion.a
                   key={social.name}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.95 }}
                   className="p-3 rounded-full bg-[#0a0a0a] border border-[#2a2a2a] hover:border-[#BF00FF]/50 transition-colors"
