@@ -1,0 +1,22 @@
+/* DJ Modernaire - App Styles */
+
+/* Remove default center alignment */
+.App {
+  text-align: left;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(191, 0, 255, 0.3);
+  color: white;
+}
+
+::-moz-selection {
+  background: rgba(191, 0, 255, 0.3);
+  color: white;
+}
